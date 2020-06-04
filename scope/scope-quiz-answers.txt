@@ -1,0 +1,18 @@
+1. What type of scoping rule(s) does
+JavaScript have? Exceptions?
+a: Lexical scope. eval and with can be used to
+   cheat it.
+
+2. What are the different ways you can
+create a new scope?
+a: functions, catch blocks, curly braces
+   with let keyword
+
+3. What’s the difference between
+undeclared and undefined?
+a: Undefined is a value. It currently
+   doesn't have a value. It's an empty
+   placeholder.
+   Undeclared is that a variable is never
+   been declared. RefErr when tried to
+   access an undeclared variable.
